@@ -5,6 +5,7 @@ namespace PartsUnlimited.Models
 {
     public class Category
     {
+        // My third change.
         public int CategoryId { get; set; }
 
         [Required]
@@ -16,4 +17,4 @@ namespace PartsUnlimited.Models
 
         public List<Product> Products { get; set; }
     }
-}
+}~
